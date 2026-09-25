@@ -1,0 +1,96 @@
+Passive 	
+
+- Allay
+- Armadillo
+- Axolotl
+- Bat
+- Camel
+- Camel Husk
+- Cat
+- Chicken
+- Cod
+- Copper Golem
+- Cow
+- Donkey
+- Frog
+- Glow Squid
+- Happy Ghast
+- Horse
+- Mooshroom
+- Mule
+- Ocelot
+- Parrot
+- Pig
+- Rabbit
+- Salmon
+- Sheep
+- Skeleton
+- Horse
+- Sniffer
+- Snow Golem
+- Squid
+- Strider
+- Sulfur Cube
+- Tadpole
+- Tropical Fish
+- Turtle
+- Villager
+- Wandering Trader
+- Zombie Horse
+
+
+Neutral 	
+
+- Bee
+- Cave Spider
+- Dolphin
+- Drowned
+- Enderman
+- Fox
+- Goat
+- Iron Golem
+- Llama
+- Nautilus
+- Panda
+- Piglin
+- Polar Bear
+- Pufferfish
+- Spider
+- Trader Llama
+- Wolf
+- Zombie Nautilus
+- Zombified Piglin
+
+Hostile 	
+
+- Blaze
+- Bogged
+- Breeze
+- Creaking
+- Creeper
+- Elder Guardian
+- Endermite
+- Evoker
+- Ghast
+- Guardian
+- Hoglin
+- Husk
+- Magma Cube
+- Parched
+- Phantom
+- Piglin Brute
+- Pillager
+- Ravager
+- Shulker
+- Silverfish
+- Skeleton
+- Slime
+- Stray
+- Vex
+- Vindicator
+- Warden
+- Witch
+- Wither Skeleton
+- Zoglin
+- Zombie
+- Zombie Villager
