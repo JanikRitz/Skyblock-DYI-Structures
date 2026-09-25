@@ -253,3 +253,4 @@ The following content still needs to be assigned to the main line or an optional
 - [Minecraft Wiki - Loot Tables](https://minecraft.wiki/w/Loot_table)
 - [Minecraft Wiki - Trees](https://minecraft.wiki/w/Tree)
 - See `research/` folder for detailed mechanic documentation
+- See `research/DatapackFeasibility.md` for implementation feasibility notes
