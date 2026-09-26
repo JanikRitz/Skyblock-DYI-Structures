@@ -17,6 +17,15 @@ This backlog follows the MVP timeline in the project plan. Complete tasks in ord
 
 ## Week 2: Structure Activation Prototype
 
+- [x] Mineshaft module: lodestone anchor, 3x3 tunnel in a 5x5 stone shell, oak fence/log
+  support arch, activation feedback, and a slow stone -> coal/iron ore conversion with
+  air self-repair. See `skyblock_datapack/README.md` for the build spec.
+  - Open: verify in-game that `execute rotated 90 0 positioned ^x ^y ^z` stays block-exact,
+    that the placement raycast reliably finds the lodestone, and that the 20-tick
+    re-validation cost is acceptable with several modules loaded.
+
+- [x] Zombie iron nugget drop (10%, any death) replacing the vanilla 0.83% iron ingot.
+
 - [ ] Prototype an anchor-based Abandoned Camp or Trail Ruins module.
   - Scope: detect an anchor, check required dimensions/features/materials, reject incomplete builds, and record completion once.
   - Acceptance: incomplete builds fail clearly; a valid build activates once; moving or reusing the completed anchor cannot duplicate the reward.

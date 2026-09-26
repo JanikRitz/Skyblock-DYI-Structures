@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:lodestone"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "skyblock:mineshaft/on_place"
+  }
+}

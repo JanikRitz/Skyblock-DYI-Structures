@@ -1,5 +1,6 @@
 {
     "values": [
-        "skstru_world:load"
+        "skstru_world:load",
+        "skyblock:load"
     ]
 }
