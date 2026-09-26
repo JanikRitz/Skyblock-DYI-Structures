@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": [{"text":"26.3+ Skyblock with progression","color": "#f4380e", "bold": true},
+                    {"text": "By: Janoshie","color": "#f4c60e", "bold": false}],
+      "min_format": [121, 0],
+      "max_format": [121, 99]
+  }
+}
