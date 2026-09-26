@@ -93,6 +93,52 @@ on newer 26.x formats:
 
 ## Plan Systems
 
+### Biome Definitions and Feature Generation
+
+Biome definitions can control which placed features are considered during world
+generation through the `features` array. It is an ordered array of generation-step
+arrays; each entry names placed-feature IDs (or feature tags) for that step. The
+array is commonly 11 entries long, in this order:
+
+1. `RAW_GENERATION`
+2. `LAKES`
+3. `LOCAL_MODIFICATIONS`
+4. `UNDERGROUND_STRUCTURES`
+5. `SURFACE_STRUCTURES`
+6. `STRONGHOLDS`
+7. `UNDERGROUND_ORES`
+8. `UNDERGROUND_DECORATION`
+9. `FLUID_SPRINGS`
+10. `VEGETAL_DECORATION`
+11. `TOP_LAYER_MODIFICATION`
+
+An empty array at a step means this biome lists no placed features for that step.
+These entries refer to placed features, not configured features. If a placed feature
+is listed in multiple biomes at the same step, its relative ordering must be
+consistent wherever the same features occur.
+
+The current `minecraft:the_end` definition is an example of a restrictive feature
+list: it contains `minecraft:end_spike` at `SURFACE_STRUCTURES` (step 5) and
+`minecraft:end_platform` at `TOP_LAYER_MODIFICATION` (step 11), with the other steps
+empty. This is a useful reference for deciding explicitly which worldgen features a
+SkyBlock biome should retain, but the existing biome JSONs are a starting baseline
+from another SkyBlock datapack and have not yet been audited against this project's
+intended progression.
+
+Scope and caveats:
+
+- Biome feature lists affect world generation, not existing blocks or already
+  generated chunks. `/fillbiome` changes biome identity in a region; it does not run
+  the biome's generation features there.
+- The definition is only one part of worldgen control. Structures, configured and
+  placed features, dimension/noise settings, and the target world's generation setup
+  may also determine what can appear.
+- Before adopting the copied biome definitions, audit each feature entry against
+  SkyBlock requirements. Keep only intended generation, and verify structure/feature
+  placement in a clean world on the target version.
+
+Source: https://minecraft.wiki/w/Biome_definition_(Java_Edition)
+
 ### Structure Regeneration
 
 Feasible, with scoped validation.
@@ -422,6 +468,7 @@ Performance rule:
 - https://minecraft.wiki/w/Commands/execute
 - https://minecraft.wiki/w/Commands/fillbiome
 - https://minecraft.wiki/w/Commands/place
+- https://minecraft.wiki/w/Biome_definition_(Java_Edition)
 - https://minecraft.wiki/w/Loot_table
 - https://minecraft.wiki/w/Advancement
 - https://minecraft.wiki/w/Structure_file

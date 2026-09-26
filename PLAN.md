@@ -169,6 +169,13 @@ The preferred solution is for a completed structure to create or designate a bio
 region around itself. This region should enable the appropriate passive mobs, hostile
 mobs, and villager variants.
 
+Biome JSON definitions are also being used to control feature generation for
+SkyBlock world creation. The current definitions are a baseline from another SkyBlock
+datapack with world structures, not yet a verified final feature set. Audit their
+ordered `features` generation-step entries so only intended worldgen remains; see
+`research/DatapackFeasibility.md` for the step order, the `the_end.json` example, and
+the distinction between worldgen features and `/fillbiome` region changes.
+
 If local biome changes are not practical in a datapack, use a fallback such as special
 trial spawners, controlled mob spawning, or mob eggs. The fallback should preserve the
 player-facing feeling of unlocking a biome without requiring a wholly custom mob system.
