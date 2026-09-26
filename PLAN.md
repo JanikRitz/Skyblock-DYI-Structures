@@ -36,6 +36,8 @@ rather than generating a complete structure for the player.
 ### Structure Regeneration
 
 - Structures are player-built and checked against a template or required features.
+- Vanilla structure-set generation is disabled for Overworld and Nether structures,
+  including strongholds. End cities remain available for End progression.
 - Completing a structure unlocks its renewable resource or gameplay function.
 - Transformations should be small and meaningful: for example, stone becoming ore,
   gravel becoming suspicious gravel, or a completed chamber activating special vaults.
@@ -150,7 +152,9 @@ line should follow resource dependencies while each tier also contains optional 
 
 **Main line candidates:**
 
-- End access
+- End access through a player-built stronghold-style structure. A possible activation
+  is to validate the build and convert designated gold blocks into End portal frames;
+  the exact layout and activation costs need a prototype.
 - Ender Dragon fight
 - Renewable access to End resources
 - Elytra and Shulker Boxes

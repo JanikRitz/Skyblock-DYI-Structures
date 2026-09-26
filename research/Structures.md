@@ -4,7 +4,9 @@
 - ancient city -> warden, swift sneak, skulk (sensor, ...)
 - buried treasure -> heart of the sea
 - Mineshaft -> diamonds (?), cobweb(?), rails, other resources
-- stronghold -> endportal
+- player-built stronghold -> validate the structure and convert designated gold
+	blocks into End portal frames to enable End access (layout and activation need a
+	prototype; generated strongholds are disabled)
 - trail ruins -> suspicous gravel for sherds for decorated pots (milestone)
 - trial chambers -> copper, spawners and vaults, cobweb(?), breeze, heavy core, maze
 - desert pyramid -> sand, sandstone, diamonds, TNT(?), cactus (?)
