@@ -243,6 +243,17 @@ The following content still needs to be assigned to the main line or an optional
 - Resources: all blocks and items normally obtained through exploration, including
   amethyst and calcite
 
+## Structure Idea Notes
+
+Keep `research/Structures.md` as the structure-idea index. Write each full structure
+idea in its own note under `research/structures/`, and connect the index, progression
+outline, and related ideas with Foam wikilinks such as `[[research/structures/mineshaft]]`.
+
+Each structure note should capture its progression role, prerequisites, player-built
+requirements, validation and activation behavior, renewable rewards, related ideas,
+and unresolved questions. Keep these notes exploratory until a design is chosen; record
+confirmed progression decisions in this plan and implementation work in `TASKS.md`.
+
 ## Open Questions
 
 1. What exact structure should be the first mandatory post-island milestone?
@@ -263,5 +274,6 @@ The following content still needs to be assigned to the main line or an optional
 - [Minecraft Wiki - Advancements](https://minecraft.wiki/w/Advancement)
 - [Minecraft Wiki - Loot Tables](https://minecraft.wiki/w/Loot_table)
 - [Minecraft Wiki - Trees](https://minecraft.wiki/w/Tree)
-- See `research/` folder for detailed mechanic documentation
+- See `research/Structures.md` for the structure-idea index and linked concept notes
+- See `research/` for detailed mechanic documentation
 - See `research/DatapackFeasibility.md` for implementation feasibility notes
